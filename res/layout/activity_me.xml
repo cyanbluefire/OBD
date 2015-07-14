@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout 
+  			android:layout_width="match_parent"
+  			android:layout_height="45dp"
+  			android:id="@+id/title"
+  			android:layout_alignParentTop="true"
+  			android:background="#ffffcc">  
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="主页"
+        		android:textSize="20sp"		
+				android:layout_centerInParent="true"/>
+
+      		<Button
+      		    android:id="@+id/btn_login_main"
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:text="@string/login" 
+      		    android:layout_alignParentRight="true"/>
+      
+	</RelativeLayout>
+	<Button 
+	    android:id="@+id/btn_bind"
+	    android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_centerInParent="true"
+      	android:text="@string/bind"
+      	android:background="#99ccff"/>
+	<Button 
+	    android:id="@+id/btn_wifiConnect"
+	    android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/btn_bind"
+      	android:layout_marginTop="10dip"
+      	android:text="@string/wificonnect"
+      	android:background="#99ccff"/>
+	<Button 
+	    android:id="@+id/btn_BmapNavi"
+	    android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/btn_wifiConnect"
+      	android:layout_marginTop="10dip"
+      	android:text="@string/BmapNavi"
+      	android:background="#99ccff"/>
+	
+		<Button 
+	    android:id="@+id/btn_ipc_state"
+	    android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/btn_BmapNavi"
+      	android:layout_marginTop="10dip"
+      	android:text="远程通信"
+      	android:background="#99ccff"/>
+	    <ProgressBar 
+            android:id="@+id/progras_bind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible"/>
+</RelativeLayout>

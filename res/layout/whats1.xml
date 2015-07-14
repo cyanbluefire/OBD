@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+    <TextView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="left" 
+        android:text="\n节能环保\n还省钱" 
+        android:layout_alignParentStart="true"      
+        android:layout_marginTop="15dp"
+        android:textSize="22sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VehicleBeta1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login">登录</string>
+    <string name="bind">绑定</string>
+    <string name="wificonnect">连接wifi</string>
+    <string name="BmapNavi">导航定位</string>
+    <string name="username">账号</string>
+	<string name="phoneNum">手机号</string>
+	<string name="password">密码</string>
+	<string name="pwHint">密码必须为8至16位字母数字组合</string>
+	<string name="pwConfirm">请再次输入密码</string>
+	<string name="register">注册</string>
+	<string name="goRegister">还没有账号，去注册一个</string>
+	<string name="passwordConfirm">确认密码</string>
+	<string name="routePlan">路线规划</string>
+	<string name="start_navi">导航</string>
+	<string name="search_location">搜索</string>
+	<string name="wait">消息发送中，请稍等...</string>
+	
+	<string name="message">消息</string>
+	<string name="tracker">追踪</string>
+	<string name="mifi">Wifi</string>
+	<string name="me">我</string>
+	<string name="myLocation">我的位置</string>
+	
+	
+	<string name="toast_disconnect">请检查网络连接</string>
+	<string name="toast_not_null">请输入内容</string>
+    <string name="toast_username_is_not_phone">手机号码格式不正确</string>
+    <string name="toast_pass1_not_equals_pass2">两次密码不一致</string>
+    <string name="toast_pass_format_error">密码必须为8至16位的数字和字母组合，可包含特殊字符</string>
+    <string name="toast_reg_exists">此手机号已被注册</string>
+    <string name="toast_reg_failed">注册失败</string>
+    <string name="toast_server_no_response">无法连接到服务器，请稍后再试</string>
+    <string name="toast_login_not_exists">此用户不存在</string>
+    <string name="toast_login_failed">登录失败</string>
+    <string name="toast_modify_nickname_invalid">无效的用户名</string>
+    <string name="toast_signature_too_long">请输入小于30个字符的个性签名</string>
+    <string name="toast_upload_my_info_failed">修改个人信息失败,请重试</string>
+    <string name="toast_save_my_photo_error">保存头像失败</string>
+    <string name="toast_upload_photo_ok">上传头像成功</string>
+    <string name="toast_upload_photo_failed">上传头像失败</string>
+    
+    <string name="dialog_logining">正在登录...</string>
+    <string name="dialog_registering">正在注册</string>
+    <string name="dialog_register_ok">注册成功</string>
+    <string name="dialog_login_now">现在登录吗？</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_searching_friends">正在查找联系人...</string>
+    <string name="dialog_uploading_my_photo">正在上传头像...</string>
+</resources>
